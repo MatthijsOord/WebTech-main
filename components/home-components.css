@@ -1,0 +1,182 @@
+/* Hero Section */
+.hero-section {
+    min-height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../assets/images/team/DAN1.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 4rem 2rem;
+    text-align: center;
+    position: relative;
+}
+
+.hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    /*background: linear-gradient(135deg, rgba(195, 117, 117, 0.5) 0%, rgba(211, 176, 176, 0.5) 100%);*/
+    background: linear-gradient(135deg, rgba(122, 71, 71, 0.5) 0%, rgba(46, 24, 24, 0.5) 100%);
+    z-index: 1;
+}
+
+.hero-content {
+    max-width: 800px;
+    position: relative;
+    z-index: 2;
+}
+
+.hero-title {
+    font-size: clamp(2rem, 5vw, 3.5rem);
+    color: white;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.hero-subtitle {
+    font-size: clamp(1rem, 2.5vw, 1.5rem);
+    color: white;
+    margin-bottom: 2rem;
+    line-height: 1.6;
+}
+
+.hero-cta {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.cta-button {
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    display: inline-block;
+}
+
+.cta-button--primary {
+    background-color: var(--color1);
+    color: var(--main-color-text);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.cta-button--primary:hover {
+    background-color: var(--color4);
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
+}
+
+.cta-button--secondary {
+    background-color: white;
+    color: var(--main-color-text);
+    border: 2px solid var(--color1);
+}
+
+.cta-button--secondary:hover {
+    background-color: var(--color1);
+    transform: translateY(-2px);
+}
+
+/* Featured Section */
+.featured-section {
+    padding: 4rem 2rem;
+    background-color: var(--main-color);
+}
+
+.featured-container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.section-title {
+    text-align: center;
+    font-size: clamp(2rem, 4vw, 2.5rem);
+    color: var(--main-color-text);
+    margin-bottom: 3rem;
+}
+
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    justify-items: center;
+}
+
+/* Feature Card */
+.feature-card {
+    background-color: white;
+    border-radius: 12px;
+    padding: 2rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.feature-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+}
+
+.feature-title {
+    font-size: 1.5rem;
+    color: var(--main-color-text);
+    margin: 0;
+}
+
+.feature-description {
+    color: var(--color5);
+    line-height: 1.6;
+    flex-grow: 1;
+}
+
+.feature-link {
+    color: var(--color3);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+    align-self: flex-start;
+}
+
+.feature-link:hover {
+    color: var(--color4);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .hero-section {
+        min-height: 50vh;
+        padding: 3rem 1rem;
+    }
+
+    .hero-cta {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .features-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .about-text {
+        text-align: left;
+    }
+}
+
+@media (max-width: 480px) {
+    .feature-card {
+        padding: 1.5rem;
+    }
+}

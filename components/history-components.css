@@ -1,0 +1,41 @@
+.handball-history{
+	max-width: 900px;
+	margin: 3rem auto;
+	padding: 0 1.25rem;
+	color: var(--main-color-text,#222);
+}
+
+.handball-history h2{
+	font-size: clamp(1.8rem,3.5vw,2.25rem);
+	margin: 0 0 0.5rem;
+	color: var(--color1,#C60C30);
+ 	font-weight: 800;
+}
+
+.handball-history p.lead{
+	font-size: 1.05rem;
+	margin: 0 0 1rem;
+	color: var(--color5,#666);
+ 	line-height: 1.7;
+}
+
+.handball-history h3{
+ 	font-size: 1.05rem;
+ 	margin: 1.6rem 0 0.6rem;
+ 	padding-left: 0.6rem;
+ 	border-left: 4px solid rgba(198,12,48,0.12);
+ 	color: var(--main-color-text,#222);
+ 	font-weight: 700;
+}
+
+.handball-history p{
+	margin:0 0 1rem;
+	line-height:1.75;
+	color:var(--main-color-text,#222);
+	font-size:1rem}
+
+@media (max-width:720px){
+ 	.handball-history{margin:1.5rem auto;padding:0 0.9rem}
+ 	.handball-history h2{font-size:1.6rem}
+ 	.handball-history h3{font-size:1rem}
+}

@@ -1,0 +1,96 @@
+.handball-results {
+    max-width: 900px;
+    margin: 3rem auto;
+    padding: 0 1.5rem;
+    font-family: "Roboto", system-ui, -apple-system, "Segoe UI", BlinkMacSystemFont, sans-serif;
+    color: var(--main-color-text, #222);
+}
+
+.handball-results h2 {
+    font-size: clamp(1.6rem, 3.2vw, 2rem);
+    font-weight: 800;
+    margin-bottom: 0.5rem;
+    color: var(--color1, #C60C30);
+}
+
+.handball-results .lead {
+    font-size: 1.03rem;
+    line-height: 1.6;
+    color: var(--color5, #666666);
+    margin-bottom: 1.5rem;
+    max-width: 820px;
+}
+
+.results-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    background-color: #ffffff;
+    box-shadow: 0 6px 18px rgba(2,6,23,0.06);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.results-table thead {
+    background-color: var(--color2, #f0f0f0);
+}
+
+.results-table th,
+.results-table td {
+    padding: 0.9rem 1rem;
+    text-align: left;
+    font-size: 0.95rem;
+}
+
+.results-table th {
+    font-weight: 700;
+    color: var(--main-color-text, #222);
+    border-bottom: 1px solid rgba(0,0,0,0.06);
+}
+
+.results-table td {
+    border-bottom: 1px solid rgba(0,0,0,0.04);
+    color: var(--main-color-text, #333);
+}
+
+.results-table tbody tr:last-child td {
+    border-bottom: none;
+}
+
+.results-table tbody tr:hover {
+    background-color: rgba(198,12,48,0.03);
+}
+
+.results-table strong {
+    font-weight: 700;
+    color: var(--color1, #C60C30);
+}
+.results-table strong.result--win { color: #0cc615; }
+.results-table strong.result--loss { color: #c60c30; }
+.results-table strong.result--neutral { color: var(--main-color-text,#222); }
+.handball-results .note {
+    margin-top: 1.25rem;
+    font-size: 0.95rem;
+    color: var(--color5, #666666);
+    max-width: 760px;
+}
+
+@media (max-width: 900px) {
+    .handball-results { padding: 0 1rem; }
+}
+
+@media (max-width: 560px) {
+    .results-table { font-size: 0.9rem; }
+    .results-table thead { display: none; }
+
+    .results-table,
+    .results-table tbody,
+    .results-table tr,
+    .results-table td { display: block; width: 100%; }
+
+    .results-table tr { margin-bottom: 0.9rem; border: 1px solid rgba(0,0,0,0.06); border-radius: 8px; padding: 0.5rem; }
+
+    .results-table td { border: none; display: flex; justify-content: space-between; padding: 0.5rem 0.6rem; }
+
+    .results-table td::before { content: attr(data-label); font-weight: 700; color: var(--color5,#666); }
+}

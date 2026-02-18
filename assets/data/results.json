@@ -1,0 +1,115 @@
+{
+  "team": "Denmark",
+  "matches": [
+    {
+      "date": "2026-02-01",
+      "time": "17:00",
+      "venue": "Home",
+      "opponent": "Germany",
+      "result": "Win",
+      "score": "34-27",
+      "competition": "EHF Euro 2026",
+      "stage": "Final"
+    },
+    {
+      "date": "2026-01-30",
+      "time": "19:30",
+      "venue": "Home",
+      "opponent": "Iceland",
+      "result": "Win",
+      "score": "31-28",
+      "competition": "EHF Euro 2026",
+      "stage": "Semi-final"
+    },
+    {
+      "date": "2026-01-28",
+      "time": "19:30",
+      "venue": "Home",
+      "opponent": "Norway",
+      "result": "Win",
+      "score": "38-24",
+      "competition": "EHF Euro 2026",
+      "stage": "Main Round"
+    },
+    {
+      "date": "2026-01-26",
+      "time": "19:30",
+      "venue": "Home",
+      "opponent": "Germany",
+      "result": "Win",
+      "score": "31-26",
+      "competition": "EHF Euro 2026",
+      "stage": "Main Round"
+    },
+    {
+      "date": "2026-01-24",
+      "time": "17:00",
+      "venue": "Home",
+      "opponent": "Spain",
+      "result": "Win",
+      "score": "36-31",
+      "competition": "EHF Euro 2026",
+      "stage": "Main Round"
+    },
+    {
+      "date": "2026-01-22",
+      "time": "19:30",
+      "venue": "Home",
+      "opponent": "France",
+      "result": "Win",
+      "score": "32-29",
+      "competition": "EHF Euro 2026",
+      "stage": "Main Round"
+    },
+    {
+      "date": "2026-01-20",
+      "time": "19:30",
+      "venue": "Home",
+      "opponent": "Portugal",
+      "result": "Loss",
+      "score": "29-31",
+      "competition": "EHF Euro 2026",
+      "stage": "Preliminary Round"
+    },
+    {
+      "date": "2026-01-18",
+      "time": "19:30",
+      "venue": "Home",
+      "opponent": "Romania",
+      "result": "Win",
+      "score": "39-24",
+      "competition": "EHF Euro 2026",
+      "stage": "Preliminary Round"
+    },
+    {
+      "date": "2026-01-16",
+      "time": "19:30",
+      "venue": "Home",
+      "opponent": "North Macedonia",
+      "result": "Win",
+      "score": "36-24",
+      "competition": "EHF Euro 2026",
+      "stage": "Preliminary Round"
+    },
+    {
+      "date": "2026-01-10",
+      "time": "12:30",
+      "venue": "Home",
+      "opponent": "Greece",
+      "result": "Win",
+      "score": "38-24",
+      "competition": "International Friendly",
+      "stage": "Friendly"
+    },
+    {
+      "date": "2026-01-08",
+      "time": "17:00",
+      "venue": "Away",
+      "opponent": "Norway",
+      "result": "Loss",
+      "score": "26-34",
+      "competition": "International Friendly",
+      "stage": "Friendly"
+    }
+  ]
+}

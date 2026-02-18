@@ -1,0 +1,122 @@
+[
+    {
+        "name": "Frederik Andersen",
+        "image": "../assets/images/players/frederik-andersen.jpg",
+        "club": "HSV Hamburg",
+        "position": "Right Wing"
+    },
+    {
+        "name": "Lasse Møller",
+        "image": "../assets/images/players/lasse-møller.jpg",
+        "club": "SG Flensburg-Handewitt",
+        "position": "Left Back"
+    },
+    {
+        "name": "Mads Hoxer",
+        "image": "../assets/images/players/mads-hoxer.jpg",
+        "club": "Aalborg Håndbold",
+        "position": "Right Back"
+    },
+    {
+        "name": "Emil Nielsen",
+        "image": "../assets/images/players/emil-nielsen.jpg",
+        "club": "FC Barcelona",
+        "position": "Goalkeeper"
+    },
+    {
+        "name": "Emil Siersbæk Bergholt",
+        "image": "../assets/images/players/emil-bergholt.jpg",
+        "club": "Skjern Håndbold",
+        "position": "Pivot"
+    },
+    {
+        "name": "Emil M. Jakobsen",
+        "image": "../assets/images/players/emil-jakobsen.jpg",
+        "club": "SG Flensburg-Handewitt",
+        "position": "Left Wing"
+    },
+    {
+        "name": "Johan Á Plógv Hansen",
+        "image": "../assets/images/players/johan-hansen.jpg",
+        "club": "Skanderborg Håndbold",
+        "position": "Right Wing"
+    },
+    {
+        "name": "Kevin Møller",
+        "image": "../assets/images/players/kevin-moller.jpg",
+        "club": "SG Flensburg-Handewitt",
+        "position": "Goalkeeper"
+    },
+    {
+        "name": "Lasse B. Andersson",
+        "image": "../assets/images/players/lasse-andersson.jpg",
+        "club": "Füchse Berlin",
+        "position": "Left Back"
+    },
+    {
+        "name": "Lukas Lindhard Jørgensen",
+        "image": "../assets/images/players/lukas-jorgensen.jpg",
+        "club": "SG Flensburg-Handewitt",
+        "position": "Pivot"
+    },
+    {
+        "name": "Mads Mensah Larsen",
+        "image": "../assets/images/players/mads-mensah-larsen.jpg",
+        "club": "Skjern Håndbold",
+        "position": "Centre Back"
+    },
+    {
+        "name": "Magnus Landin Jacobsen",
+        "image": "../assets/images/players/magnus-landin-jacobsen.jpg",
+        "club": "THW Kiel",
+        "position": "Left Wing"
+    },
+    {
+        "name": "Magnus Saugstrup Jensen",
+        "image": "../assets/images/players/magnus-saugstrup-jensen.jpg",
+        "club": "SC Magdeburg",
+        "position": "Pivot"
+    },
+    {
+        "name": "Mathias Gidsel",
+        "image": "../assets/images/players/mathias-gidsel.jpg",
+        "club": "Füchse Berlin",
+        "position": "Right Back"
+    },
+    {
+        "name": "Niclas Vest Kirkeløkke",
+        "image": "../assets/images/players/niclas-kirkelokke.jpg",
+        "club": "SG Flensburg-Handewitt",
+        "position": "Right Back"
+    },
+    {
+        "name": "Rasmus Lauge Schmidt",
+        "image": "../assets/images/players/rasmus-lauge-schmidt.jpg",
+        "club": "Bjerringbro-Silkeborg",
+        "position": "Centre Back"
+    },
+    {
+        "name": "Simon Hald Jensen",
+        "image": "../assets/images/players/simon-hald-jensen.jpg",
+        "club": "Aalborg Håndbold",
+        "position": "Pivot"
+    },
+    {
+        "name": "Simon Bogetoft Pytlick",
+        "image": "../assets/images/players/simon-pytlick.jpg",
+        "club": "SG Flensburg-Handewitt",
+        "position": "Left Back"
+    },
+    {
+        "name": "Thomas Sommer Arnoldsen",
+        "image": "../assets/images/players/thomas-arnoldsen.jpg",
+        "club": "Aalborg Håndbold",
+        "position": "Centre Back"
+    },
+    {
+        "name": "Nikolaj Jocobsen",
+        "image": "../assets/images/players/nikolaj-jocobsen.jpg",
+        "club": "National Team",
+        "position": "Coach"
+    }
+]
